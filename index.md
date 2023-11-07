@@ -3,23 +3,29 @@
 layout: home
 
 hero:
-  name: "awsome linhema"
-  text: "a blog for ppl"
-  tagline: My great project tagline
+  name: "河馬的網誌"
+  text: "紀錄生活，\r\n紀錄學習。"
+  tagline: Coding with Patience, Crafting Excellence
+  image: 
+    src: /.vitepress/dist/assets/ピンクのカバ.png
+    alt: VitePress
   actions:
     - theme: brand
       text: Markdown Examples
-      link: /markdown-examples
+      link: /article
     - theme: alt
       text: API Examples
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: Web developer
+    icon: 🕷️
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Dog lover
+    icon: 🐶
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
+    icon: 🔥
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

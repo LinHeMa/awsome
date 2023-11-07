@@ -2,13 +2,13 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "awsome linhema",
-  description: "a blog for ppl",
+  title: "🦛",
+  description: "a blog documenting my learning journey",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "主頁", link: "/" },
-      { text: "專案", link: "/markdown-examples" },
+      { text: "文章", link: "/article" },
       { text: "test", link: "/doc/test" },
     ],
 
